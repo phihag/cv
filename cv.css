@@ -18,15 +18,14 @@ html, body {
 	color: #222;
 }
 
-
-
 h1 {
-	margin: 0 0 0.4em 0;
-	font-size: 24px;
+	margin: 1cm 0 1em 0;
+	font-size: 25px;
+	text-align: center;
 }
 h2 {
 	margin: 0 0 0.4em 0;
-	font-size: 15px;	
+	font-size: 18px;	
 }
 
 a {
@@ -39,19 +38,20 @@ a:hover {
 }
 
 .side {
-	width: 14em;
+	width: 13em;
 	text-align: right;
 	float: left;
 }
 address {
 	font-style: normal;
+	margin-top: 1.5em;
 }
-address div {
-	margin: 0.4em 0;
+address > div {
+	margin: 0.5em 0;
 }
 
 main {
-	margin: 0 0 0 17.5em;
+	margin: 0 3em 0 16.5em;
 }
 main>section>div {
 	margin: 1em 0 1em 0;

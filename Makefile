@@ -2,7 +2,7 @@
 pdf: cv.de.pdf
 
 cv.de.pdf:
-	TODO
+	chrome --headless --disable-gpu --no-margins --print-to-pdf=cv.de.pdf http://localhost/cv/
 
 clean:
 	rm -f cv.de.pdf

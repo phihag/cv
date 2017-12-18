@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  	local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+  	url(RobotoCondensed.ttf) format('truetype');
+}
+
+@page { 
+	margin: 0;
+	size: A4;
+}
+
+html, body {
+	font-size: 12px;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #222;
+}
+
+
+
+h1 {
+	margin: 0 0 0.4em 0;
+	font-size: 24px;
+}
+h2 {
+	margin: 0 0 0.4em 0;
+	font-size: 15px;	
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	color: #00a;
+	text-decoration: underline;
+}
+
+.side {
+	width: 14em;
+	text-align: right;
+	float: left;
+}
+address {
+	font-style: normal;
+}
+address div {
+	margin: 0.4em 0;
+}
+address div a {
+	font-weight: bold;
+}
+
+main {
+	margin: 0 0 0 17.5em;
+}
+main>section>div {
+	margin: 1em 0 1em 0;
+}
+
+.timespan {
+	float: right;
+	color: #555;
+}
+.mark::before {
+	content: '(';
+}
+.mark::after {
+	content: ')';
+}
+
+.work-title {
+	color: #222;
+	font-style: italic;
+}
+.institution {
+	font-size: 80%;
+	color: #555;
+}

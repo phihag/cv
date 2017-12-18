@@ -27,7 +27,8 @@ h1 {
 }
 h2 {
 	margin: 0 0 0.4em 0;
-	font-size: 18px;
+	font-size: 20px;
+	line-height: 90%;
 }
 
 a {
@@ -51,6 +52,10 @@ address {
 address > div {
 	margin: 0.5em 0;
 }
+.pubkey {
+	margin-top: 0.5em;
+	font-size: 70%;
+}
 
 main {
 	margin: 0 3em 0 16.5em;
@@ -60,6 +65,9 @@ main > section > div {
 }
 main section + section {
 	margin-top: 2em;
+}
+main > section:first-child {
+	margin-top: -1em;
 }
 
 .timespan {

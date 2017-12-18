@@ -49,15 +49,15 @@ address {
 address div {
 	margin: 0.4em 0;
 }
-address div a {
-	font-weight: bold;
-}
 
 main {
 	margin: 0 0 0 17.5em;
 }
 main>section>div {
 	margin: 1em 0 1em 0;
+}
+main section + section {
+	margin-top: 2em;
 }
 
 .timespan {
@@ -79,3 +79,4 @@ main>section>div {
 	font-size: 80%;
 	color: #555;
 }
+

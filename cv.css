@@ -1,18 +1,20 @@
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src:
-  	local('Roboto Condensed'), local('RobotoCondensed-Regular'),
-  	url(RobotoCondensed.ttf) format('truetype');
-}
-
-@page { 
+@page {
 	margin: 0;
 	size: A4;
 }
 
-html, body {
+@font-face {
+	font-family: 'Roboto Condensed';
+	font-style: normal;
+	font-weight: 400;
+	src:
+		local('Roboto Condensed'),
+		local('RobotoCondensed-Regular'),
+		url(RobotoCondensed.ttf) format('truetype');
+}
+
+html,
+body {
 	font-size: 12px;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: #222;
@@ -25,7 +27,7 @@ h1 {
 }
 h2 {
 	margin: 0 0 0.4em 0;
-	font-size: 18px;	
+	font-size: 18px;
 }
 
 a {
@@ -53,7 +55,7 @@ address > div {
 main {
 	margin: 0 3em 0 16.5em;
 }
-main>section>div {
+main > section > div {
 	margin: 1em 0 1em 0;
 }
 main section + section {

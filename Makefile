@@ -2,10 +2,10 @@
 pdf: cv.de.pdf cv.en.pdf
 
 cv.de.pdf: cv.de.html cv.css
-	chrome --headless --disable-gpu --no-margins --print-to-pdf=cv.de.pdf http://localhost/cv/
+	chrome --headless --disable-gpu --no-margins --print-to-pdf=cv.de.pdf http://localhost/cv/cv.de.html
 
 cv.en.pdf: cv.en.html cv.css
-	chrome --headless --disable-gpu --no-margins --print-to-pdf=cv.en.pdf http://localhost/cv/
+	chrome --headless --disable-gpu --no-margins --print-to-pdf=cv.en.pdf http://localhost/cv/cv.en.html
 
 deps:
 	npm install stylelint stylelint-config-standard html-validator-cli
